@@ -148,7 +148,6 @@ function App() {
                   Available Safes
                 </Typography>
                 <Divider sx={{ my: 3 }} />
-                {console.log("============================",safeAuthSignInResponse)}
                 {safeAuthSignInResponse?.safes?.length ? (
                   safeAuthSignInResponse?.safes?.map((safe, index) => (
                     <Box sx={{ my: 3 }} key={index}>

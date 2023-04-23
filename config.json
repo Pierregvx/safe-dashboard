@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Node Manager",
+        "logo": "https://www.apple.com/fr/app-store/images/overview/chiclets/hero_14_3__b9gaa036p8pe_large.jpg",
+        "description": "Install and manage Massa nodes from Thyra",
+        "assets": {
+          "windows": {
+            "url": "https://github.com/massalabs/thyra-node-manager-plugin/releases/download/v0.0.10/thyra-plugin-node-manager_windows-amd64.zip",
+            "checksum": "877c15e37ee4b9a6880467a0e5233212"
+          },
+          "linux": {
+            "url": "https://github.com/massalabs/thyra-node-manager-plugin/releases/download/v0.0.10/thyra-plugin-node-manager_linux-amd64.zip",
+            "checksum": "e182d77e6773b8e5745dfaf29e56ee55"
+          },
+          "macos-arm64": {
+            "url": "https://github.com/massalabs/thyra-node-manager-plugin/releases/download/v0.0.10/thyra-plugin-node-manager_darwin-arm64.zip",
+            "checksum": "421f7b27ff1bede9997cd39e086567d8"
+          },
+          "macos-amd64": {
+            "url": "https://github.com/massalabs/thyra-node-manager-plugin/releases/download/v0.0.10/thyra-plugin-node-manager_darwin-amd64.zip",
+            "checksum": "a179319ee6d8e5caae3f945989a8135a"
+          }
+        },
+        "version": "0.0.18",
+        "url": "https://github.com/massalabs/thyra-node-manager-plugin"
+      }
+]
